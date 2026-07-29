@@ -1,0 +1,11 @@
+﻿.venv311/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.coverage
+.pytest_cache/
+*.db
+*.sqlite3
+.DS_Store
+*.log
