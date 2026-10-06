@@ -1,0 +1,109 @@
+{
+  "literature_agent": {
+    "total_queries": 10,
+    "successful": 10,
+    "success_rate": 1.0,
+    "total_papers": 500,
+    "avg_papers": 50,
+    "min_papers": 50,
+    "max_papers": 50,
+    "avg_latency_ms": 6179.60159778595,
+    "p95_latency_ms": 8142.648458480835,
+    "p99_latency_ms": 8142.648458480835,
+    "sources": 9,
+    "source_names": [
+      "PubMed",
+      "Europe PMC",
+      "CrossRef",
+      "Semantic Scholar",
+      "OpenAlex",
+      "DOAJ",
+      "bioRxiv",
+      "medRxiv",
+      "PMC"
+    ]
+  },
+  "drug_agent": {
+    "total_drugs": 10,
+    "successful": 10,
+    "success_rate": 1.0,
+    "total_properties": 180,
+    "avg_properties": 18,
+    "min_properties": 18,
+    "max_properties": 18,
+    "avg_latency_ms": 5130.787563323975,
+    "p95_latency_ms": 9187.794923782349
+  },
+  "smiles_agent": {
+    "total_smiles": 6,
+    "successful": 6,
+    "success_rate": 1.0,
+    "avg_properties": 13,
+    "min_properties": 13,
+    "max_properties": 13,
+    "avg_latency_ms": 39.759437243143715,
+    "p95_latency_ms": 91.09807014465332
+  },
+  "knowledge_graph_agent": {
+    "total_entities": 5,
+    "successful": 0,
+    "success_rate": 0.0,
+    "total_relationships": 0,
+    "avg_neighbors": 0,
+    "avg_latency_ms": 2950.4053592681885
+  },
+  "drug_discovery_agent": {
+    "total_smiles": 3,
+    "successful": 3,
+    "success_rate": 1.0,
+    "total_candidates": 3,
+    "avg_candidates": 1,
+    "avg_latency_ms": 94.16810671488444
+  },
+  "embeddings": {
+    "total_texts": 5,
+    "embedding_dimension": 1024,
+    "avg_single_latency_ms": 293.18928718566895,
+    "batch_latency_ms": 373.25024604797363,
+    "model_name": "uc-ctds/bge-large-en-v1.5-bio-mapping",
+    "embedding_count": 5
+  },
+  "ai_assistant": {
+    "llm_model": "mistral:7b",
+    "llm_provider": "Ollama",
+    "max_tokens": 1500,
+    "temperature": 0.3,
+    "timeout_seconds": 120,
+    "agents_available": 5,
+    "agent_names": [
+      "Literature Search",
+      "Drug Information",
+      "SMILES Analysis",
+      "Knowledge Graph",
+      "Drug Discovery"
+    ]
+  },
+  "system_overall": {
+    "total_queries": 34,
+    "total_successful": 29,
+    "overall_success_rate": 0.8529411764705882,
+    "avg_latency_ms": 2878.944412867228,
+    "components_tested": 5,
+    "agent_types": [
+      "Literature",
+      "Drug",
+      "SMILES",
+      "Knowledge Graph",
+      "Drug Discovery"
+    ]
+  },
+  "system_info": {
+    "python_version": "3.11.0",
+    "os": "Windows",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "ram_gb": 15.44,
+    "cpu_cores": 14,
+    "ollama_model": "mistral:7b",
+    "embedding_model": "uc-ctds/bge-large-en-v1.5-bio-mapping"
+  }
+}

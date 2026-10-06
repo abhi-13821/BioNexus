@@ -835,6 +835,14 @@ def export_to_csv(result: DrugDiscoveryResult) -> str:
 # ----------------------------------------------------------------------
 
 def main() -> None:
+    if "smiles_input" not in st.session_state:
+        st.session_state.smiles_input = ""
+    if "disease_name_input" not in st.session_state:
+        st.session_state.disease_name_input = ""
+    if "drug_discovery_results" not in st.session_state:
+        st.session_state.drug_discovery_results = None
+    if "drug_discovery_loading" not in st.session_state:
+        st.session_state.drug_discovery_loading = False
     """Main application entry point."""
     # Header
     st.markdown("""

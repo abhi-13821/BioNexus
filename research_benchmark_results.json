@@ -1,0 +1,739 @@
+{
+  "literature": {
+    "total_queries": 50,
+    "successful": 50,
+    "success_rate": 1.0,
+    "total_papers": 2500,
+    "avg_papers_per_query": 50.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "map": 0.0,
+    "ndcg": 0.0,
+    "latency": {
+      "mean": 5459.37210559845,
+      "median": 5185.352206230164,
+      "p95": 8169.126987457275,
+      "p99": 8417.664289474487,
+      "min": 3930.5107593536377,
+      "max": 8417.664289474487
+    },
+    "errors": [],
+    "results": [
+      {
+        "query": "EGFR mutations in non-small cell lung cancer",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5959.4995975494385
+      },
+      {
+        "query": "BRCA1 and breast cancer risk",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6038.971424102783
+      },
+      {
+        "query": "PD-L1 expression in melanoma",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5562.111854553223
+      },
+      {
+        "query": "KRAS mutations in colorectal cancer",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 8417.664289474487
+      },
+      {
+        "query": "TP53 tumor suppressor gene",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6350.320100784302
+      },
+      {
+        "query": "HER2 positive breast cancer treatment",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5201.121091842651
+      },
+      {
+        "query": "ALK rearrangements in lung cancer",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4378.135204315186
+      },
+      {
+        "query": "BRAF V600E mutation in melanoma",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4079.9343585968018
+      },
+      {
+        "query": "NTRK gene fusions in solid tumors",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4274.040460586548
+      },
+      {
+        "query": "MET exon 14 skipping in NSCLC",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4950.025320053101
+      },
+      {
+        "query": "statins and cardiovascular disease prevention",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4385.705947875977
+      },
+      {
+        "query": "atrial fibrillation treatment guidelines",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 8259.230613708496
+      },
+      {
+        "query": "hypertension management in elderly",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4807.097911834717
+      },
+      {
+        "query": "heart failure with preserved ejection fraction",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4063.0717277526855
+      },
+      {
+        "query": "coronary artery disease risk factors",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4042.0897006988525
+      },
+      {
+        "query": "PCSK9 inhibitors for cholesterol",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4861.928939819336
+      },
+      {
+        "query": "aspirin for primary prevention",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6038.13099861145
+      },
+      {
+        "query": "beta-blockers after myocardial infarction",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6092.833995819092
+      },
+      {
+        "query": "ACE inhibitors in heart failure",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4595.022916793823
+      },
+      {
+        "query": "clopidogrel resistance mechanisms",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6389.771461486816
+      },
+      {
+        "query": "COVID-19 vaccine efficacy variants",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5120.184421539307
+      },
+      {
+        "query": "antibiotic resistance in Staphylococcus aureus",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 7486.961364746094
+      },
+      {
+        "query": "HIV treatment guidelines 2024",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5559.769153594971
+      },
+      {
+        "query": "malaria drug resistance mechanisms",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4303.065776824951
+      },
+      {
+        "query": "tuberculosis treatment regimens",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5190.776824951172
+      },
+      {
+        "query": "hepatitis C direct-acting antivirals",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6855.303525924683
+      },
+      {
+        "query": "influenza vaccine effectiveness",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 3930.5107593536377
+      },
+      {
+        "query": "Ebola virus pathogenesis",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5969.39492225647
+      },
+      {
+        "query": "Zika virus neurological complications",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4790.528059005737
+      },
+      {
+        "query": "Streptococcus pneumoniae vaccine",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5016.591548919678
+      },
+      {
+        "query": "Alzheimer's disease biomarkers",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5179.927587509155
+      },
+      {
+        "query": "Parkinson's disease treatment",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 7042.574405670166
+      },
+      {
+        "query": "multiple sclerosis immunomodulation",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4627.477645874023
+      },
+      {
+        "query": "stroke thrombolysis guidelines",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6205.301523208618
+      },
+      {
+        "query": "epilepsy drug resistance",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6464.379787445068
+      },
+      {
+        "query": "amyotrophic lateral sclerosis genetics",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4092.050790786743
+      },
+      {
+        "query": "Huntington's disease mechanisms",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 8169.126987457275
+      },
+      {
+        "query": "migraine prevention strategies",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4962.306022644043
+      },
+      {
+        "query": "dementia risk factors",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5142.54903793335
+      },
+      {
+        "query": "traumatic brain injury recovery",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4715.615510940552
+      },
+      {
+        "query": "type 2 diabetes management",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6319.338321685791
+      },
+      {
+        "query": "obesity pharmacotherapy",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5022.172927856445
+      },
+      {
+        "query": "metabolic syndrome components",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6795.99666595459
+      },
+      {
+        "query": "thyroid hormone replacement therapy",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4232.043266296387
+      },
+      {
+        "query": "osteoporosis treatment guidelines",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5737.762928009033
+      },
+      {
+        "query": "vitamin D deficiency supplementation",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5282.168865203857
+      },
+      {
+        "query": "gout treatment algorithms",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 6405.46441078186
+      },
+      {
+        "query": "hyperlipidemia management",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 5364.553928375244
+      },
+      {
+        "query": "polycystic ovary syndrome",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 3996.4399337768555
+      },
+      {
+        "query": "adrenal insufficiency diagnosis",
+        "papers_found": 50,
+        "found_relevant": 0,
+        "success": true,
+        "latency_ms": 4241.560459136963
+      }
+    ]
+  },
+  "drug": {
+    "total_drugs": 50,
+    "found": 48,
+    "success_rate": 0.96,
+    "avg_properties": 17.28,
+    "latency": {
+      "mean": 4809.800510406494,
+      "median": 5017.249941825867,
+      "p95": 5651.573419570923,
+      "p99": 8885.955572128296,
+      "min": 218.66631507873535,
+      "max": 8885.955572128296
+    },
+    "results": [
+      {
+        "drug": "Aspirin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 8885.955572128296
+      },
+      {
+        "drug": "Paracetamol",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4708.510398864746
+      },
+      {
+        "drug": "Ibuprofen",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4889.6777629852295
+      },
+      {
+        "drug": "Metformin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4899.3964195251465
+      },
+      {
+        "drug": "Atorvastatin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5083.977937698364
+      },
+      {
+        "drug": "Omeprazole",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4968.482255935669
+      },
+      {
+        "drug": "Losartan",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5233.735084533691
+      },
+      {
+        "drug": "Clopidogrel",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5107.819318771362
+      },
+      {
+        "drug": "Simvastatin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5369.773864746094
+      },
+      {
+        "drug": "Amoxicillin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5014.475345611572
+      },
+      {
+        "drug": "Ciprofloxacin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5164.347887039185
+      },
+      {
+        "drug": "Metoprolol",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4923.912286758423
+      },
+      {
+        "drug": "Lisinopril",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 6739.816665649414
+      },
+      {
+        "drug": "Furosemide",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5055.006980895996
+      },
+      {
+        "drug": "Levothyroxine",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5006.582975387573
+      },
+      {
+        "drug": "Prednisone",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5134.329557418823
+      },
+      {
+        "drug": "Gabapentin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4888.567924499512
+      },
+      {
+        "drug": "Tramadol",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4501.703262329102
+      },
+      {
+        "drug": "Albuterol",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4475.714921951294
+      },
+      {
+        "drug": "Pantoprazole",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5042.873859405518
+      },
+      {
+        "drug": "Sertraline",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 3930.3536415100098
+      },
+      {
+        "drug": "Fluoxetine",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4596.178293228149
+      },
+      {
+        "drug": "Citalopram",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5087.0420932769775
+      },
+      {
+        "drug": "Diazepam",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5136.049032211304
+      },
+      {
+        "drug": "Alprazolam",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 3388.85235786438
+      },
+      {
+        "drug": "Zolpidem",
+        "found": false,
+        "properties": 0,
+        "latency_ms": 218.66631507873535
+      },
+      {
+        "drug": "Meloxicam",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5040.880441665649
+      },
+      {
+        "drug": "Celecoxib",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4794.963121414185
+      },
+      {
+        "drug": "Carvedilol",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4541.056394577026
+      },
+      {
+        "drug": "Amlodipine",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4633.493661880493
+      },
+      {
+        "drug": "Hydrochlorothiazide",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 3926.3036251068115
+      },
+      {
+        "drug": "Warfarin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5500.076055526733
+      },
+      {
+        "drug": "Rivaroxaban",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4179.030895233154
+      },
+      {
+        "drug": "Apixaban",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5429.360628128052
+      },
+      {
+        "drug": "Enoxaparin",
+        "found": false,
+        "properties": 0,
+        "latency_ms": 1019.9778079986572
+      },
+      {
+        "drug": "Insulin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4276.806592941284
+      },
+      {
+        "drug": "Glipizide",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4658.876895904541
+      },
+      {
+        "drug": "Pioglitazone",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5363.210916519165
+      },
+      {
+        "drug": "Liraglutide",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5535.732984542847
+      },
+      {
+        "drug": "Semaglutide",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5050.851821899414
+      },
+      {
+        "drug": "Empagliflozin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5287.962913513184
+      },
+      {
+        "drug": "Dapagliflozin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5209.535360336304
+      },
+      {
+        "drug": "Canagliflozin",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5651.573419570923
+      },
+      {
+        "drug": "Valsartan",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4132.282495498657
+      },
+      {
+        "drug": "Telmisartan",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 4522.547960281372
+      },
+      {
+        "drug": "Atenolol",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5053.062915802002
+      },
+      {
+        "drug": "Propranolol",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5020.024538040161
+      },
+      {
+        "drug": "Duloxetine",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5065.106391906738
+      },
+      {
+        "drug": "Venlafaxine",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 5274.005651473999
+      },
+      {
+        "drug": "Bupropion",
+        "found": true,
+        "properties": 18,
+        "latency_ms": 3871.500015258789
+      }
+    ]
+  },
+  "smiles": {
+    "total_smiles": 4,
+    "successful": 4,
+    "success_rate": 1.0,
+    "avg_properties": 13.0,
+    "latency": {
+      "mean": 19.316017627716064,
+      "median": 15.586614608764648,
+      "p95": 40.331125259399414,
+      "p99": 40.331125259399414,
+      "min": 5.759716033935547,
+      "max": 40.331125259399414
+    },
+    "results": [
+      {
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O...",
+        "properties": 13,
+        "latency_ms": 40.331125259399414
+      },
+      {
+        "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O...",
+        "properties": 13,
+        "latency_ms": 23.122787475585938
+      },
+      {
+        "smiles": "C1=CC=CC=C1...",
+        "properties": 13,
+        "latency_ms": 5.759716033935547
+      },
+      {
+        "smiles": "CCCCCC...",
+        "properties": 13,
+        "latency_ms": 8.05044174194336
+      }
+    ]
+  },
+  "summary": {
+    "timestamp": "2026-07-30T02:01:49.466204",
+    "overall": {
+      "total_queries": 104,
+      "total_successful": 102,
+      "overall_success_rate": 0.9807692307692307,
+      "literature_success_rate": 1.0,
+      "drug_success_rate": 0.96,
+      "smiles_success_rate": 1.0,
+      "average_latency_ms": 3429.4962112108865
+    }
+  }
+}

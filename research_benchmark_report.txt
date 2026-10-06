@@ -1,0 +1,41 @@
+======================================================================
+📊 BIOENEXUS RESEARCH BENCHMARK RESULTS
+======================================================================
+Generated: 2026-07-30 02:01:49
+
+📚 LITERATURE AGENT
+----------------------------------------
+  Total Queries: 50
+  Success Rate: 100.0%
+  Avg Papers/Query: 50.0
+  Precision: 0.000
+  Recall: 0.000
+  F1 Score: 0.000
+  MAP: 0.000
+  NDCG: 0.000
+  Avg Latency: 5459.4ms
+  P95 Latency: 8169.1ms
+
+💊 DRUG AGENT
+----------------------------------------
+  Total Drugs: 50
+  Success Rate: 96.0%
+  Avg Properties: 17.3
+  Avg Latency: 4809.8ms
+
+🧪 SMILES AGENT
+----------------------------------------
+  Total SMILES: 4
+  Success Rate: 100.0%
+  Avg Properties: 13.0
+  Avg Latency: 19.3ms
+
+📊 OVERALL SUMMARY
+----------------------------------------
+  Total Queries: 104
+  Overall Success Rate: 98.1%
+  Overall Avg Latency: 3429.5ms
+
+======================================================================
+✅ BENCHMARK COMPLETE
+======================================================================

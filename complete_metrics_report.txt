@@ -1,0 +1,74 @@
+================================================================================
+📊 BIOENEXUS RESEARCH PAPER - COMPLETE METRICS
+================================================================================
+Generated: 2026-07-30 02:12:41
+
+## SYSTEM CONFIGURATION
+--------------------------------------------------------------------------------
+  Python Version: 3.11.0
+  Operating System: Windows
+  CPU Cores: 14
+  RAM: 15.44 GB
+  LLM Model: mistral:7b
+  Embedding Model: uc-ctds/bge-large-en-v1.5-bio-mapping
+
+## TABLE 1: AGENT PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+| Agent | Success Rate | Avg Results | Avg Latency | P95 Latency |
+|-------|-------------|-------------|-------------|-------------|
+| Literature | 100.0% | 50.0 papers | 6180ms | 8143ms |
+| Drug | 100.0% | 18.0 props | 5131ms | 9188ms |
+| SMILES | 100.0% | 13.0 props | 40ms | 91ms |
+| Knowledge Graph | 0.0% | 0.0 rels | 2950ms | - |
+| Drug Discovery | 100.0% | 1.0 cands | 94ms | - |
+
+## TABLE 2: DETAILED AGENT METRICS
+--------------------------------------------------------------------------------
+| Metric | Literature | Drug | SMILES | KG | Drug Discovery |
+|--------|-----------|------|--------|----|----------------|
+| Total Queries | 10 | 10 | 6 | 5 | 3 |
+| Success Rate | 100.0% | 100.0% | 100.0% | 0.0% | 100.0% |
+| Min Results | 50 | 18 | 13 | - | - |
+| Max Results | 50 | 18 | 13 | - | - |
+| Avg Results | 50.0 | 18.0 | 13.0 | 0.0 | 1.0 |
+| Avg Latency | 6180ms | 5131ms | 40ms | 2950ms | 94ms |
+
+## TABLE 3: EMBEDDING SYSTEM METRICS
+--------------------------------------------------------------------------------
+  Model: uc-ctds/bge-large-en-v1.5-bio-mapping
+  Embedding Dimension: 1024
+  Texts Tested: 5
+  Average Single Latency: 293.19ms
+  Batch Latency: 373.25ms
+  Embeddings Generated: 5
+
+## TABLE 4: AI ASSISTANT CONFIGURATION
+--------------------------------------------------------------------------------
+  LLM Model: mistral:7b
+  Provider: Ollama
+  Max Tokens: 1500
+  Temperature: 0.3
+  Timeout: 120s
+  Agents Available: 5
+    - Literature Search
+    - Drug Information
+    - SMILES Analysis
+    - Knowledge Graph
+    - Drug Discovery
+
+## TABLE 5: OVERALL SYSTEM METRICS
+--------------------------------------------------------------------------------
+  Total Queries: 34
+  Total Successful: 29
+  Overall Success Rate: 85.3%
+  Overall Avg Latency: 2879ms
+  Components Tested: 5
+    - Literature
+    - Drug
+    - SMILES
+    - Knowledge Graph
+    - Drug Discovery
+
+================================================================================
+✅ COMPLETE METRICS COLLECTION COMPLETED
+================================================================================

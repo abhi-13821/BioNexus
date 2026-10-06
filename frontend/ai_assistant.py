@@ -187,7 +187,7 @@ def get_conversation_manager() -> ConversationManager:
         # Create SmartCoordinator with Ollama
         coordinator = SmartCoordinator(
             registry=registry,
-            model="phi3:mini",
+            model="mistral:7b",
             ollama_url="http://localhost:11434/api/generate",
         )
         
@@ -200,7 +200,7 @@ def get_conversation_manager() -> ConversationManager:
         manager = ConversationManager(coordinator=coordinator)
         loop.run_until_complete(manager.initialize())
         
-        logger.info("✅ SmartCoordinator with phi3:mini initialized")
+        logger.info("✅ SmartCoordinator with mistral:7b initialized")
         return manager
         
     except ImportError as e:
@@ -512,6 +512,20 @@ def process_user_query(query: str) -> None:
 
 def main() -> None:
     """Main application entry point."""
+    
+    if "ai_initialized" not in st.session_state:
+        st.session_state.ai_initialized = False
+    if "ai_conversation_manager" not in st.session_state:
+        st.session_state.ai_conversation_manager = None
+    if "ai_messages" not in st.session_state:
+        st.session_state.ai_messages = []
+    if "ai_is_processing" not in st.session_state:
+        st.session_state.ai_is_processing = False
+    if "ai_conversation_id" not in st.session_state:
+        st.session_state.ai_conversation_id = None
+    if "ai_show_metadata" not in st.session_state:
+        st.session_state.ai_show_metadata = False
+    
     # Header
     st.markdown("""
     <div class="ai-header">
@@ -581,8 +595,4 @@ def main() -> None:
     
     # Footer
     st.markdown("---")
-    st.caption("BioNexus AI Assistant | Powered by Multi-Agent AI + Ollama (phi3:mini)")
-
-
-if __name__ == "__main__":
-    main()
+    st.caption("BioNexus AI Assistant | Powered by Multi-Agent AI + Ollama (mistral:7b)")
